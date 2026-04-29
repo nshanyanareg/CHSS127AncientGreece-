@@ -32,6 +32,21 @@
             backface-visibility: hidden;
             transform-style: preserve-3d;
         }
+        .bg-image {
+            content-visibility: auto;
+        }
+
+        #bg-container {
+            contain: layout paint size;
+        }
+
+        .git-slider-wrapper {
+            contain: layout paint;
+        }
+
+        .info-card {
+            contain: layout paint;
+        }
         :root {
             --git-dark: #37474f;
             --git-main: #b3e5fc;
@@ -405,8 +420,8 @@
             desc: `Alexander’s death in 323 BC left no stable succession, and his empire fragmented into competing kingdoms ruled by his generals and their dynasties. The result was the Hellenistic world: not a unified empire, but a vast zone in which Greek language, institutions, art, and education circulated through royal courts and newly enlarged cities such as Alexandria, Antioch, and Pergamon. This was a major transformation in scale and mentality. The political center shifted away from the small autonomous polis toward large bureaucratic monarchies. At the same time, Greek culture became more international than ever before. Science, mathematics, geography, and literary scholarship flourished under royal patronage; philosophy increasingly addressed the individual’s place in a large and unstable world. The Hellenistic age also produced new artistic styles that were more emotional, dramatic, and diverse than the restrained balance associated with the Classical era. Over time, however, the rival kingdoms weakened each other and fell under the expanding influence of Rome. The Roman conquest of Greece did not erase Greek civilization. Instead, it produced one of history’s most influential cultural syntheses. Greek language, philosophy, education, religion, art, and architectural forms deeply shaped Roman elite culture, while Roman administration, infrastructure, and imperial organization provided the political frame through which Hellenic traditions endured. This final stage is therefore not a simple ending. It is the mechanism by which Greek civilization outlived Greek political independence. Through Rome, the Greek world entered a second life, preserving and transmitting ideas that would shape later Europe, Byzantium, and much of the Mediterranean intellectual tradition.`
         },
 
-        branch_1:
-            { x: 11.5, y: 15, type: 'branch-up', label: 'Cyclades', hasBox: true,
+        branch_1: {
+            x: 11.5, y: 15, type: 'branch-up', label: 'Cyclades', hasBox: true,
             date: '3rd millennium BC',
             title: 'Cycladic Marble Figurines',
             focus: 'Shared Symbolism Across the Islands',
@@ -414,8 +429,8 @@
             desc: `The Cycladic islands produced highly distinctive marble figurines, many found in burials. Their reduced, geometric forms suggest a shared symbolic language long before the classical period. They show that even early Aegean communities already participated in cultural exchange networks that crossed the sea and linked otherwise small island societies.`
         },
 
-        branch_2:
-            { x: 22.5, y: 85, type: 'branch-down', label: 'Knossos', hasBox: true,
+        branch_2: {
+            x: 22.5, y: 85, type: 'branch-down', label: 'Knossos', hasBox: true,
             date: 'c. 1900 BC onward',
             title: 'The Palace of Knossos',
             focus: 'Administrative and Ritual Center',
@@ -423,8 +438,8 @@
             desc: `Knossos became the best-known Minoan palace center. Its storage magazines, courts, painted rooms, and administrative character show how Cretan power worked through redistribution and ceremony rather than through a single visible throne-centered monarchy in the later mainland sense.`
         },
 
-        branch_3:
-            { x: 32.5, y: 15, type: 'branch-up', label: 'Thera', hasBox: true,
+        branch_3: {
+            x: 32.5, y: 15, type: 'branch-up', label: 'Thera', hasBox: true,
             date: 'Late 17th–16th c. BC',
             title: 'The Thera Eruption',
             focus: 'Aegean Environmental Shock',
@@ -432,8 +447,8 @@
             desc: `The volcanic eruption on Thera was one of the great natural disasters of the ancient Mediterranean. It likely disrupted trade and damaged regional systems, though historians still debate exactly how directly it contributed to the weakening of Minoan power.`
         },
 
-        branch_4:
-            { x: 43.5, y: 85, type: 'branch-down', label: 'Lefkandi', hasBox: true,
+        branch_4: {
+            x: 43.5, y: 85, type: 'branch-down', label: 'Lefkandi', hasBox: true,
             date: 'c. 10th c. BC',
             title: 'Lefkandi and Dark Age Continuity',
             focus: 'Wealth After Collapse',
@@ -441,8 +456,8 @@
             desc: `The site of Lefkandi on Euboea shows that the so-called Dark Age was not uniform decline everywhere. Monumental burial, imported goods, and evidence of overseas contacts reveal that some communities preserved wealth and long-distance connections even after palace society collapsed.`
         },
 
-        branch_5:
-            { x: 54.5, y: 15, type: 'branch-up', label: 'Alphabet', hasBox: true,
+        branch_5: {
+            x: 54.5, y: 15, type: 'branch-up', label: 'Alphabet', hasBox: true,
             date: 'c. 8th c. BC',
             title: 'Adoption of the Greek Alphabet',
             focus: 'Literacy Beyond Bureaucracy',
@@ -450,8 +465,8 @@
             desc: `The Greek adoption and adaptation of the Phoenician alphabet was revolutionary because it made writing flexible and widely usable. Unlike Linear B, which had served palace administration, alphabetic writing could record poetry, dedications, law, and public communication.`
         },
 
-        branch_6:
-            { x: 65.5, y: 85, type: 'branch-down', label: 'Olympia', hasBox: true,
+        branch_6: {
+            x: 65.5, y: 85, type: 'branch-down', label: 'Olympia', hasBox: true,
             date: '776 BC',
             title: 'The First Secure Olympic Date',
             focus: 'Panhellenic Identity',
@@ -459,8 +474,8 @@
             desc: `The first securely remembered Olympic date, 776 BC, became a major chronological marker for the Greek world. The games created a sacred meeting point where rival city-states temporarily suspended conflict and expressed a wider Hellenic identity through competition and ritual.`
         },
 
-        branch_7:
-            { x: 76.5, y: 15, type: 'branch-up', label: 'Cleisthenes', hasBox: true,
+        branch_7: {
+            x: 76.5, y: 15, type: 'branch-up', label: 'Cleisthenes', hasBox: true,
             date: '508–507 BC',
             title: 'Democratic Reorganization in Athens',
             focus: 'Citizenship Reframed',
@@ -468,8 +483,8 @@
             desc: `Cleisthenes reorganized the Athenian citizen body in a way that weakened old aristocratic power blocs. His reforms are widely treated as the institutional foundation of Athenian democracy because they tied political participation more strongly to civic structure than to clan privilege.`
         },
 
-        branch_8:
-            { x: 85.5, y: 85, type: 'branch-down', label: 'Socrates', hasBox: true,
+        branch_8: {
+            x: 85.5, y: 85, type: 'branch-down', label: 'Socrates', hasBox: true,
             date: '399 BC',
             title: 'The Trial of Socrates',
             focus: 'Ethics, Critique, and Civic Anxiety',
@@ -477,8 +492,8 @@
             desc: `Socrates’ execution became one of the defining moments in Greek intellectual history. By turning philosophy toward ethical questioning, public reasoning, and critique of assumption, he shaped later thought through Plato and beyond, even though Athens condemned him.`
         },
 
-        branch_9:
-            { x: 92.5, y: 15, type: 'branch-up', label: 'Chaeronea', hasBox: true,
+        branch_9: {
+            x: 92.5, y: 15, type: 'branch-up', label: 'Chaeronea', hasBox: true,
             date: '338 BC',
             title: 'Battle of Chaeronea',
             focus: 'Macedonian Supremacy',
@@ -486,8 +501,8 @@
             desc: `Philip II’s victory at Chaeronea over Athens and Thebes ended effective military resistance to Macedonian domination in mainland Greece. It marks the turning point at which the independent polis ceased to be the highest political force in the Greek world.`
         },
 
-        branch_10:
-            { x: 96.5, y: 85, type: 'branch-down', label: 'Alexandria', hasBox: true,
+        branch_10: {
+            x: 96.5, y: 85, type: 'branch-down', label: 'Alexandria', hasBox: true,
             date: '3rd c. BC',
             title: 'The Library of Alexandria',
             focus: 'Knowledge on an Imperial Scale',
@@ -495,8 +510,8 @@
             desc: `Under the Ptolemies, Alexandria became a leading center of scholarship. Its library and research culture symbolize the Hellenistic shift from local civic identity to cosmopolitan knowledge networks supported by powerful monarchies and connected urban institutions.`
         },
 
-        branch_11:
-            { x: 90.5, y: 85, type: 'branch-down', label: 'Corinth', hasBox: true,
+        branch_11: {
+            x: 90.5, y: 85, type: 'branch-down', label: 'Corinth', hasBox: true,
             date: '146 BC',
             title: 'Roman Destruction of Corinth',
             focus: 'Political Independence Ends',
@@ -510,19 +525,19 @@
     }
 
     const tracks = [
-        { id: 'main', xMin: 5, xMax: 94.5, getY: (x) => 50 },
+        { id: 'main', xMin: 5, xMax: 94.5, getY: () => 50 },
 
-        { id: 'b1',  xMin: 6,  xMax: 11.5, getY: (x) => x < 9.5  ? 50 - 35 * smoothstep((x - 6)  / 3.5) : 15 },
-        { id: 'b2',  xMin: 16, xMax: 22.5, getY: (x) => x < 19.5 ? 50 + 35 * smoothstep((x - 16) / 3.5) : 85 },
-        { id: 'b3',  xMin: 26, xMax: 32.5, getY: (x) => x < 29.5 ? 50 - 35 * smoothstep((x - 26) / 3.5) : 15 },
-        { id: 'b4',  xMin: 36, xMax: 43.5, getY: (x) => x < 39.5 ? 50 + 35 * smoothstep((x - 36) / 3.5) : 85 },
-        { id: 'b5',  xMin: 46, xMax: 54.5, getY: (x) => x < 50   ? 50 - 35 * smoothstep((x - 46) / 4.0) : 15 },
-        { id: 'b6',  xMin: 56, xMax: 65.5, getY: (x) => x < 60   ? 50 + 35 * smoothstep((x - 56) / 4.0) : 85 },
-        { id: 'b7',  xMin: 66, xMax: 76.5, getY: (x) => x < 70   ? 50 - 35 * smoothstep((x - 66) / 4.0) : 15 },
-        { id: 'b8',  xMin: 76, xMax: 85.5, getY: (x) => x < 80   ? 50 + 35 * smoothstep((x - 76) / 4.0) : 85 },
-        { id: 'b9',  xMin: 86, xMax: 92.5, getY: (x) => x < 89.5 ? 50 - 35 * smoothstep((x - 86) / 3.5) : 15 },
-        { id: 'b11', xMin: 86, xMax: 90.5, getY: (x) => x < 89 ? 50 + 35 * smoothstep((x - 86) / 3.0) : 85 },
-        { id: 'b10', xMin: 94, xMax: 96.5, getY: (x) => x < 95.5 ? 50 + 35 * smoothstep((x - 94) / 1.5) : 85 }
+        { id: 'b1',  xMin: 6,  xMax: 11.5, getY: x => x < 9.5  ? 50 - 35 * smoothstep((x - 6)  / 3.5) : 15 },
+        { id: 'b2',  xMin: 16, xMax: 22.5, getY: x => x < 19.5 ? 50 + 35 * smoothstep((x - 16) / 3.5) : 85 },
+        { id: 'b3',  xMin: 26, xMax: 32.5, getY: x => x < 29.5 ? 50 - 35 * smoothstep((x - 26) / 3.5) : 15 },
+        { id: 'b4',  xMin: 36, xMax: 43.5, getY: x => x < 39.5 ? 50 + 35 * smoothstep((x - 36) / 3.5) : 85 },
+        { id: 'b5',  xMin: 46, xMax: 54.5, getY: x => x < 50   ? 50 - 35 * smoothstep((x - 46) / 4.0) : 15 },
+        { id: 'b6',  xMin: 56, xMax: 65.5, getY: x => x < 60   ? 50 + 35 * smoothstep((x - 56) / 4.0) : 85 },
+        { id: 'b7',  xMin: 66, xMax: 76.5, getY: x => x < 70   ? 50 - 35 * smoothstep((x - 66) / 4.0) : 15 },
+        { id: 'b8',  xMin: 76, xMax: 85.5, getY: x => x < 80   ? 50 + 35 * smoothstep((x - 76) / 4.0) : 85 },
+        { id: 'b9',  xMin: 86, xMax: 92.5, getY: x => x < 89.5 ? 50 - 35 * smoothstep((x - 86) / 3.5) : 15 },
+        { id: 'b11', xMin: 86, xMax: 90.5, getY: x => x < 89   ? 50 + 35 * smoothstep((x - 86) / 3.0) : 85 },
+        { id: 'b10', xMin: 94, xMax: 96.5, getY: x => x < 95.5 ? 50 + 35 * smoothstep((x - 94) / 1.5) : 85 }
     ];
 
     const sliderWrapper = document.getElementById('slider-wrapper');
@@ -530,33 +545,82 @@
     const thumb = document.getElementById('drag-thumb');
     const canvas = document.getElementById('trackCanvas');
     const ctx = canvas.getContext('2d');
-    let activeNodeId = null;
 
-    function initUI() {
-        Object.keys(nodeData).forEach(id => {
+    const eventDate = document.getElementById('eventDate');
+    const eventTitle = document.getElementById('eventTitle');
+    const eventFocus = document.getElementById('eventFocus');
+    const eventDesc = document.getElementById('eventDesc');
+    const textContainer = document.getElementById('textContainer');
+    const badge = document.getElementById('nodeTypeBadge');
+
+    let activeNodeId = null;
+    let initialized = false;
+    let isDragging = false;
+    let resizeFrame = null;
+    let dragFrame = null;
+    let latestPointerEvent = null;
+
+    function preloadImages() {
+        const entries = Object.entries(nodeData);
+
+        return Promise.all(entries.map(([id, data]) => {
+            return new Promise(resolve => {
+                const img = new Image();
+
+                if (id === 'main_1') {
+                    img.fetchPriority = 'high';
+                } else {
+                    img.fetchPriority = 'low';
+                }
+
+                img.decoding = 'async';
+                img.src = data.img;
+
+                img.onload = resolve;
+                img.onerror = resolve;
+            });
+        }));
+    }
+
+    function createBackgroundImages() {
+        const fragment = document.createDocumentFragment();
+
+        Object.entries(nodeData).forEach(([id, data]) => {
             const img = document.createElement('img');
-            img.src = nodeData[id].img;
+
+            img.src = data.img;
             img.className = 'bg-image';
             img.id = `bg-${id}`;
-            img.alt = nodeData[id].title;
-            bgContainer.appendChild(img);
+            img.alt = data.title;
+            img.decoding = 'async';
+            img.loading = id === 'main_1' ? 'eager' : 'lazy';
+            img.fetchPriority = id === 'main_1' ? 'high' : 'low';
+
+            fragment.appendChild(img);
         });
 
-        Object.keys(nodeData).forEach(id => {
-            const node = nodeData[id];
+        bgContainer.appendChild(fragment);
+    }
 
+    function createTimelineNodes() {
+        const fragment = document.createDocumentFragment();
+
+        Object.entries(nodeData).forEach(([id, node]) => {
             const dot = document.createElement('div');
+
             dot.className = `git-node ${node.type}`;
             dot.id = `node-${id}`;
             dot.style.left = `${node.x}%`;
             dot.style.top = `${node.y}%`;
             dot.addEventListener('click', () => snapToNode(id));
-            sliderWrapper.appendChild(dot);
+
+            fragment.appendChild(dot);
 
             if (node.hasBox) {
                 const labelBox = document.createElement('div');
-                let boxClass = '';
-                let arrowHTML = '';
+
+                let boxClass;
+                let arrowHTML;
 
                 if (node.type === 'main-node') {
                     boxClass = 'box-main';
@@ -572,24 +636,24 @@
                 labelBox.className = `git-label-box ${boxClass}`;
                 labelBox.style.left = `${node.x}%`;
                 labelBox.innerHTML = `${node.label} ${arrowHTML}`;
-                sliderWrapper.appendChild(labelBox);
+
+                fragment.appendChild(labelBox);
             }
         });
 
-        window.addEventListener('resize', drawCanvasPaths);
-        drawCanvasPaths();
-        snapToNode('main_1');
+        sliderWrapper.appendChild(fragment);
     }
 
     function drawCanvasPaths() {
         const rect = sliderWrapper.getBoundingClientRect();
-        canvas.width = rect.width * window.devicePixelRatio;
-        canvas.height = rect.height * window.devicePixelRatio;
+        const dpr = window.devicePixelRatio || 1;
 
-        ctx.setTransform(1, 0, 0, 1, 0, 0);
-        ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+        canvas.width = Math.round(rect.width * dpr);
+        canvas.height = Math.round(rect.height * dpr);
 
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         ctx.clearRect(0, 0, rect.width, rect.height);
+
         ctx.strokeStyle = '#37474f';
         ctx.lineWidth = 6;
         ctx.lineJoin = 'round';
@@ -597,30 +661,49 @@
 
         tracks.forEach(track => {
             ctx.beginPath();
+
             for (let x = track.xMin; x <= track.xMax; x += 0.2) {
                 const y = track.getY(x);
                 const px = (x / 100) * rect.width;
                 const py = (y / 100) * rect.height;
 
-                if (x === track.xMin) ctx.moveTo(px, py);
-                else ctx.lineTo(px, py);
+                if (x === track.xMin) {
+                    ctx.moveTo(px, py);
+                } else {
+                    ctx.lineTo(px, py);
+                }
             }
+
             ctx.stroke();
+        });
+    }
+
+    function scheduleCanvasRedraw() {
+        if (resizeFrame) {
+            cancelAnimationFrame(resizeFrame);
+        }
+
+        resizeFrame = requestAnimationFrame(() => {
+            drawCanvasPaths();
+            resizeFrame = null;
         });
     }
 
     function snapToNode(id) {
         const node = nodeData[id];
+
+        if (!node) return;
+
         thumb.style.left = `${node.x}%`;
         thumb.style.top = `${node.y}%`;
+
         activateContent(id);
     }
 
-    let isDragging = false;
-
     function getClosestTrackPosition(mouseX, mouseY) {
         let bestDist = Infinity;
-        let bestX = 5, bestY = 50;
+        let bestX = 5;
+        let bestY = 50;
 
         tracks.forEach(track => {
             const clampedX = Math.max(track.xMin, Math.min(track.xMax, mouseX));
@@ -628,7 +711,7 @@
 
             const dx = mouseX - clampedX;
             const dy = mouseY - trackY;
-            const dist = Math.sqrt(dx * dx + dy * dy);
+            const dist = Math.hypot(dx, dy);
 
             if (dist < bestDist) {
                 bestDist = dist;
@@ -644,9 +727,9 @@
         let closestId = activeNodeId;
         let minDist = Infinity;
 
-        Object.keys(nodeData).forEach(id => {
-            const node = nodeData[id];
-            const dist = Math.sqrt(Math.pow(px - node.x, 2) + Math.pow(py - node.y, 2));
+        Object.entries(nodeData).forEach(([id, node]) => {
+            const dist = Math.hypot(px - node.x, py - node.y);
+
             if (dist < minDist) {
                 minDist = dist;
                 closestId = id;
@@ -656,20 +739,13 @@
         if (minDist < 2.8 && closestId !== activeNodeId) {
             activateContent(closestId);
         }
+
         return closestId;
     }
 
-    thumb.addEventListener('pointerdown', (e) => {
-        isDragging = true;
-        thumb.style.transition = 'none';
-        thumb.setPointerCapture(e.pointerId);
-        e.preventDefault();
-    });
-
-    thumb.addEventListener('pointermove', (e) => {
-        if (!isDragging) return;
-
+    function handleDragMove(e) {
         const rect = sliderWrapper.getBoundingClientRect();
+
         const mouseX = ((e.clientX - rect.left) / rect.width) * 100;
         const mouseY = ((e.clientY - rect.top) / rect.height) * 100;
 
@@ -679,87 +755,143 @@
         thumb.style.top = `${constrainedPos.y}%`;
 
         checkProximityToNodes(constrainedPos.x, constrainedPos.y);
-    });
+    }
 
-    thumb.addEventListener('pointerup', (e) => {
-        if (!isDragging) return;
-        isDragging = false;
-        thumb.style.transition = 'transform 0.1s ease, left 0.3s ease, top 0.3s ease';
-        thumb.releasePointerCapture(e.pointerId);
+    function scheduleDragMove(e) {
+        latestPointerEvent = e;
 
-        const px = parseFloat(thumb.style.left);
-        const py = parseFloat(thumb.style.top);
+        if (dragFrame) return;
 
-        let closestId = activeNodeId;
-        let minDist = Infinity;
-
-        Object.keys(nodeData).forEach(id => {
-            const node = nodeData[id];
-            const dist = Math.sqrt(Math.pow(px - node.x, 2) + Math.pow(py - node.y, 2));
-            if (dist < minDist) {
-                minDist = dist;
-                closestId = id;
+        dragFrame = requestAnimationFrame(() => {
+            if (latestPointerEvent) {
+                handleDragMove(latestPointerEvent);
             }
-        });
 
-        snapToNode(closestId);
-    });
+            dragFrame = null;
+        });
+    }
 
     function activateContent(id) {
         if (activeNodeId === id) return;
 
+        const data = nodeData[id];
         const oldBg = activeNodeId ? document.getElementById(`bg-${activeNodeId}`) : null;
         const newBg = document.getElementById(`bg-${id}`);
-        const tc = document.getElementById('textContainer');
-        const data = nodeData[id];
 
-        if (oldBg) oldBg.classList.remove('active');
+        if (!data || !newBg) return;
+
+        if (oldBg) {
+            oldBg.classList.remove('active');
+        }
+
         newBg.classList.add('active');
+        textContainer.classList.add('fading');
 
-        tc.classList.add('fading');
-
-        requestAnimationFrame(() => {
-            requestAnimationFrame(() => {
-                document.getElementById('eventDate').innerText = data.date;
-                document.getElementById('eventTitle').innerText = data.title;
-                document.getElementById('eventFocus').innerText = data.focus;
-                document.getElementById('eventDesc').innerHTML = data.desc;
-
-                const badge = document.getElementById('nodeTypeBadge');
+        window.requestAnimationFrame(() => {
+            window.requestAnimationFrame(() => {
+                eventDate.textContent = data.date;
+                eventTitle.textContent = data.title;
+                eventFocus.textContent = data.focus;
+                eventDesc.textContent = data.desc;
 
                 if (data.type === 'main-node') {
-                    badge.innerText = 'Master Branch';
+                    badge.textContent = 'Master Branch';
                     badge.style.backgroundColor = 'var(--git-main)';
                     badge.style.color = 'var(--git-dark)';
                     badge.style.borderColor = 'var(--git-dark)';
+
                     thumb.style.background = 'var(--git-main)';
                     thumb.style.boxShadow = '0 0 10px rgba(179, 229, 252, 0.8), 0 2px 4px rgba(0,0,0,0.3)';
                 } else if (data.type === 'branch-up') {
-                    badge.innerText = 'Feature Branch';
+                    badge.textContent = 'Feature Branch';
                     badge.style.backgroundColor = 'var(--git-branch-up)';
                     badge.style.color = 'var(--git-dark)';
                     badge.style.borderColor = 'var(--git-dark)';
+
                     thumb.style.background = 'var(--git-branch-up)';
                     thumb.style.boxShadow = '0 0 10px rgba(206, 147, 216, 0.8), 0 2px 4px rgba(0,0,0,0.3)';
                 } else {
-                    badge.innerText = 'Feature Branch';
+                    badge.textContent = 'Feature Branch';
                     badge.style.backgroundColor = 'var(--git-branch-down)';
                     badge.style.color = 'var(--git-dark)';
                     badge.style.borderColor = 'var(--git-dark)';
+
                     thumb.style.background = 'var(--git-branch-down)';
                     thumb.style.boxShadow = '0 0 10px rgba(105, 240, 174, 0.8), 0 2px 4px rgba(0,0,0,0.3)';
                 }
 
-                document.querySelector('.desc-scroll').scrollTop = 0;
-                tc.classList.remove('fading');
+                eventDesc.scrollTop = 0;
+                textContainer.classList.remove('fading');
             });
         });
 
         activeNodeId = id;
     }
 
-    initUI();
-    initUI();
+    function attachEvents() {
+        window.addEventListener('resize', scheduleCanvasRedraw, { passive: true });
+
+        thumb.addEventListener('pointerdown', e => {
+            isDragging = true;
+            thumb.style.transition = 'none';
+            thumb.setPointerCapture(e.pointerId);
+            e.preventDefault();
+        });
+
+        thumb.addEventListener('pointermove', e => {
+            if (!isDragging) return;
+            scheduleDragMove(e);
+        });
+
+        thumb.addEventListener('pointerup', e => {
+            if (!isDragging) return;
+
+            isDragging = false;
+            thumb.style.transition = 'transform 0.1s ease, left 0.3s ease, top 0.3s ease';
+
+            try {
+                thumb.releasePointerCapture(e.pointerId);
+            } catch (_) {}
+
+            const px = parseFloat(thumb.style.left);
+            const py = parseFloat(thumb.style.top);
+
+            let closestId = activeNodeId;
+            let minDist = Infinity;
+
+            Object.entries(nodeData).forEach(([id, node]) => {
+                const dist = Math.hypot(px - node.x, py - node.y);
+
+                if (dist < minDist) {
+                    minDist = dist;
+                    closestId = id;
+                }
+            });
+
+            snapToNode(closestId);
+        });
+
+        thumb.addEventListener('pointercancel', () => {
+            isDragging = false;
+            thumb.style.transition = 'transform 0.1s ease, left 0.3s ease, top 0.3s ease';
+        });
+    }
+
+    function initUI() {
+        if (initialized) return;
+        initialized = true;
+
+        createBackgroundImages();
+        createTimelineNodes();
+        attachEvents();
+
+        requestAnimationFrame(() => {
+            drawCanvasPaths();
+            snapToNode('main_1');
+        });
+    }
+
+    preloadImages().then(initUI);
 </script>
 </div>
 </body>
